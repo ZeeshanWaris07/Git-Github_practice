@@ -6,4 +6,4 @@ def multiply(a,b):
 
 
 print(sum(2,2))
-print(multiply(a,b))
+print(multiply(2,2))
