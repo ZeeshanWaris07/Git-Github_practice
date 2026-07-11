@@ -1,9 +1,14 @@
-def sum(a,b):
-  return a+b
+def Calculator(a,b,op):
+    if op == '+':
+        return a + b
+    elif op == '-':
+        return a - b
+    elif op == '*':
+        return a * b
+    elif op == '/':
+        return a / b
+    else:
+        return "Invalid operator"
+    
 
-def multiply(a,b):
-  return a * b
-
-
-print(sum(2,2))
-print(multiply(2,2))
+print(Calculator(10, 5, '+'))
